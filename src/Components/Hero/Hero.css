@@ -44,34 +44,36 @@
     font-size: 22px;
     font-weight: 500;
 }
-/* .hero-right{
+.hero-right{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-} */
+}
 
+/* 
 .hero-right {
     flex: 1;
-    position: relative; /* Needed for absolute positioning of child elements */
+    position: relative; 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .hero-right img {
-    position: absolute; /* Position images absolutely within the hero-right container */
+    position: absolute; 
 }
 
 .hero-right img:first-child {
-    z-index: 2; /* Hero image in the front */
+    z-index: 2; 
 }
 
 .hero-right img:last-child {
-    z-index: 1; /* Blob SVG in the back */
-    width: 80%; /* Make the blob SVG cover the entire container */
+    z-index: 1; 
+    width: 80%; 
     height: 80%;
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
-    max-width: 80%; /* Ensure it scales correctly */
-    max-height: 80%; /* Ensure it scales correctly */
-}
+    object-fit: cover; 
+    max-width: 80%; 
+    max-height: 80%; 
+} 
+*/

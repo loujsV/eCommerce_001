@@ -27,7 +27,7 @@ const Hero = () => {
         
         <div className="hero-right">
         <img src={hero_image} alt="hero" />
-        <img src={blob_svg} alt="background_blob" />
+        {/* <img src={blob_svg} alt="background_blob" /> */}
     </div>
     </div>
   )
