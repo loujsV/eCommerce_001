@@ -1,5 +1,8 @@
 .item{
-    width: 350px;
+    width: 280px;
+}
+.item img{
+    width: 280px;
 }
 .item p{
     margin: 6px 0px;
@@ -23,6 +26,56 @@
     transform: scale(1.05);
     transition: 0.6s;
 }
-.item img{
-    border-radius: 30px;
+@media(max-width:1280px){
+    .item{
+        width: 200px;
+        font-size: 14px;
+    }
+    .item img{
+        width: 200px;
+    }
+    .item-price-old{
+        font-size: 14px;
+    }
+    .item-price-new{
+        font-size: 14px;
+    }
+}
+@media(max-width:1024px){
+    .item{
+        width: 150px;
+        font-size: 11px;
+    }
+    .item img{
+        width: 150px;
+    }
+    .item-price-old{
+        font-size: 11px;
+    }
+    .item-price-new{
+        font-size: 11px;
+    }
+}
+@media(max-width:800px){
+    .item{
+        width: 100px;
+        font-size: 11px;
+    }
+    .item img{
+        width: 100px;
+    }
+    .item-price-old{
+        font-size: 11px;
+    }
+    .item-price-new{
+        font-size: 11px;
+    }
+}
+@media(max-width:500px){
+    .item{
+        width: 120px;
+    }
+    .item img{
+        width: 120px;
+    }
 }
